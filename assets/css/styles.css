@@ -154,7 +154,7 @@ img{
 .nav__logo{
   font-weight: var(--font-weight-semi-bold);
 }
-.nav__toggle, .nav__shop{
+.nav__toggle, .nav__cart{
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -360,7 +360,7 @@ padding: 2rem 1.5rem;
   padding: 1.5rem;
 }
 .footer__container{
-  grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
 }
 .footer__box{
   margin: 0 0 var(--mb-3);
