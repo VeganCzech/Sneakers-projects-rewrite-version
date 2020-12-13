@@ -12,7 +12,7 @@
     <!-- ===== BOX ICONS ===== -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Sneakers shop-HOME</title>
+    <title>Sneakers shop - Cart (3.step)</title>
 </head>
 
 <body>
@@ -25,139 +25,86 @@
             <a href="index.html" class="nav__logo">Sneakers</a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link active__link">Home</a></li>
                     <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
                     <li class="nav__item"><a href="contact.html" class="nav__link">Contact us</a></li>
                 </ul>
             </div>
 
-            <div class="nav__cart active__link">
+            <div class="nav__cart">
                 <a href="cart.html"><i class='bx bx-cart'></i></a>
             </div>
         </nav>
     </header>
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home section" id="home_banner">
-            <div class="home__container bd-grid">
-                <div class="home__banner">
-                    <img src="assets/img/home/imghome.png" alt="home_shoes_new" class="home__img">
-                </div>
-
-                <div class="home__data">
-                    <span class="home__new">New model<br><span>2021</span></span>
-                    <h1 class="home__title">
-                        <span>N</span>I<span>K</span>E<br>S<span>N</span>E<span>A</span>K<span>E</span>R<span>S</span>
-                    </h1>
-                    <p class="home__description">Explore new future with our shoes</p>
-                    <a href="product-detail.html" class="button">Order now</a>
-                </div>
-            </div>
-        </section>
-        <!--===== FEATURED =====-->
-        <section class="featured section" id="featured">
-            <h2 class="section-title">Featured products</h2>
-
-            <div class="featured__container bd-grid">
-                <article class="sneaker">
-                    <div class="sneaker__sale">SALE</div>
-                    <a href="product-detail.html">
-                        <img src="assets/img/featured/featured1.png" alt="" class="sneaker__img">
-                    </a>
-                    <a href="product-detail.html">
-                        <span class="sneaker__name">Nike</span>
-                    </a>
-                    <span class="sneaker__price">149 EUR</span>
-                    <a href="#" class="button-light">Add to cart <i class='bx bxs-cart-add'></i></a>
-                </article>
-                <article class="sneaker">
-                    <div class="sneaker__sale">SALE</div>
-                    <a href="product-detail.html">
-                        <img src="assets/img/featured/featured2.png" alt="" class="sneaker__img">
-                    </a>
-                    <a href="product-detail.html">
-                        <span class="sneaker__name">Addidas</span>
-                    </a>
-                    <span class="sneaker__price">149 EUR</span>
-                    <a href="#" class="button-light">Add to cart <i class='bx bxs-cart-add'></i></a>
-                </article>
-                <article class="sneaker">
-                    <div class="sneaker__sale">SALE</div>
-                    <a href="product-detail.html">
-                        <img src="assets/img/featured/featured3.png" alt="" class="sneaker__img">
-                    </a>
-                    <a href="product-detail.html">
-                        <span class="sneaker__name">Puma</span>
-                    </a>
-                    <span class="sneaker__price">149 EUR</span>
-                    <a href="#" class="button-light">Add to cart <i class='bx bxs-cart-add'></i></a>
-                </article>
-                <article class="sneaker">
-                    <div class="sneaker__sale">SALE</div>
-                    <a href="product-detail.html">
-                        <img src="assets/img/featured/featured2.png" alt="" class="sneaker__img">
-                    </a>
-                    <a href="product-detail.html">
-                        <span class="sneaker__name">New Balance</span>
-                    </a>
-                    <span class="sneaker__price">149 EUR</span>
-                    <a href="#" class="button-light">Add to cart <i class='bx bxs-cart-add'></i></a>
-                </article>
-                <article class="sneaker">
-                    <div class="sneaker__sale">SALE</div>
-                    <a href="product-detail.html">
-                        <img src="assets/img/featured/featured3.png" alt="" class="sneaker__img">
-                    </a>
-                    <a href="product-detail.html">
-                        <span class="sneaker__name">FILA</span>
-                    </a>
-                    <span class="sneaker__price">149 EUR</span>
-                    <a href="#" class="button-light">Add to cart <i class='bx bxs-cart-add'></i></a>
-                </article>
-            </div>
-        </section>
-        <!--===== CATEGORY =====-->
-        <section class="category section" id="category">
-            <h2 class="section-title">Category products</h2>
-            <div class="category__container bd-grid">
-                <div class="category__card">
-                    <div class="category__data">
-                        <h3 class="category__name">Men shoes</h3>
-                        <p class="category__description">Do you know more?</p>
-                        <a href="#category" class="button-light">Click</a>
+    <section class="section cart" id="cart">
+        <h2 class="section-title">Cart - 3.step / 3.steps</h2>
+        <div class="bd-grid cart">
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Card_type">Card type</label>
                     </div>
-                    <img src="assets/img/category/category1.png" alt="category iamage" class="category__img">
-                </div>
-                <div class="category__card">
-                    <div class="category__data">
-                        <h3 class="category__name"><span>Woman shoes</span></h3>
-                        <p class="category__description">Do you know more?</p>
-                        <a href="#category" class="button-light">Click</a>
+                    <div class="col-75">
+                        <select id="Card_type" name="Card_type">
+                            <option value="visa">VISA</option>
+                            <option value="master-c">Master card</option>
+                            <option value="amer-ex">American express</option>
+                        </select>
                     </div>
-                    <img src="assets/img/category/category2.png" alt="category iamage" class="category__img">
                 </div>
-
-            </div>
-        </section>
-
-        <!--===== NEWSLETTER =====-->
-        <section class="newsletter section" id="subscribed">
-            <h2 class="section-title">Newsletter</h2>
-            <div class="newsletter__container bd-grid">
-                <div class="newsletter__subscribe">
-                    <h2 class="section-title">Text</h2>
-                    <p class="newsletter__description">Promo products</p>
-                    <form action="" class="newsletter__form">
-                        <input type="text" class="newsletter__input" placeholder="Enter your e-mail adress...">
-                        <a href="#subsribe" class="button-subs">Subsribe news</a>
-                    </form>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Card_number">Card number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Card_number" name="Card_number" placeholder="Card number">
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!--===== BRANDS =====-->
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Card_sec_code">CVV / CRR</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Card_sec_code" name="Card_sec_code" placeholder="Code">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Name">Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Name" name="Name" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Adress">Adress</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Adress" name="Adress" placeholder="Adress">
+                    </div>
+                </div>                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="Country" name="Country">
+                            <option value="CZ">Czech Republic</option>
+                            <option value="SK">Slovakia</option>
+                            <option value="PL">Polish</option>
+                            <option value="DE">Germany</option>
+                        </select>
+                    </div>
+                </div>                
+                <div class="row">
+                    <a href="cart-finish-order.html" class="button right-align">Send</a>
+                </div>
+            </form>
 
-    </main>
+        </div>
+    </section>
     <!--===== FOOTER =====-->
     <footer class="footer section">
         <div class="footer__container bd-grid">
