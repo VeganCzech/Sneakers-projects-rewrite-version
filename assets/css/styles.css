@@ -188,7 +188,7 @@ img {
 }
 
 .home__container {
-  height: calc(100vh - var(--header-height));
+  height: calc(80vh - var(--header-height));
 }
 
 .home__banner {
@@ -814,7 +814,7 @@ input[type=submit]:hover {
     margin-right: auto;
   }
   .home__container {
-    column-gap: 10rem;
+    column-gap: 8rem;
   }
   .category__container {
     grid-template-columns: repeat(2, 500px);
