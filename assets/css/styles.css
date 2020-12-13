@@ -380,6 +380,11 @@ padding: 2rem 1.5rem;
   background-color: var(--color-orange-soft);
   color: var(--color-black);
 }
+.pagination__active {
+  border: 3px solid var(--color-black);
+  background-color: var(--color-orange-soft);
+  color: var(--color-black);
+}
 /*===== FOOTER =====*/
 .footer{
   background-color: var(--color-footer);
@@ -489,7 +494,7 @@ padding: 2rem 1.5rem;
     left: -3rem;
   }
   .newsletter__form{
-    width: 400px;
+    padding: 0 4rem;
     margin: 0 auto;
   }
 }
