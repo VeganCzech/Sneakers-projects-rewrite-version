@@ -10,19 +10,19 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-gray: #555555;
-  --color-gray-soft: #f6f6f6;
+  --color-gray-soft: #dfdfdf;
   --color-footer: #1b262c;
 
   /*===== Font and typography =====*/
   --font-body: 'Poppins', sans-serif;
 
-  --font-size-small: .820rem;
-  --font-size-normal: .940rem;
-  --font-size-big: 1.25rem;
+  --font-size-small: .810rem;
+  --font-size-normal: .975rem;
+  --font-size-big: 1.3rem;
   --font-size-bigger: 1.5rem;
   --font-size-biggest: 2rem;
   --font-size-h2: 1.25rem;
-  --font-size-h3: 1rem;
+  --font-size-h3: 1.1rem;
   
   /*===== Font weight =====*/
   --font-weight-medium: 500;
@@ -189,7 +189,7 @@ img{
   margin: var(--mb-1) 0;
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
-  font-size: var(--normal-font-size);
+  font-size: var(--font-size-big);
 }
 .home__new span{
   color: var(--color-orange);
