@@ -503,6 +503,10 @@ input[type=submit]:hover {
   font-size: var(--font-size-small); 
   max-width: 40rem; 
 }
+.custom-select{
+  margin: var(--mb-3) 0;
+  width: 140px;
+}
 /* Featured */
 
 .featured__container {
