@@ -1,10 +1,11 @@
-/*===== GOOGLE FONTS =====*/
+/* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+
+ Variable */
 :root{
   --header-height: 3rem;
 
-  /*===== Colores =====*/
+  /* Colors */
   --color-orange: #ff422d;
   --color-orange-soft: #f1867a;
   --color-white: #ffffff;
@@ -13,23 +14,25 @@
   --color-gray-soft: #dfdfdf;
   --color-footer: #1b262c;
 
-  /*===== Font and typography =====*/
-  --font-body: 'Poppins', sans-serif;
+  /* Fonts */
+    /* Type */
+    --font-body: 'Poppins', sans-serif;
 
-  --font-size-small: .810rem;
-  --font-size-normal: .975rem;
-  --font-size-big: 1.3rem;
-  --font-size-bigger: 1.5rem;
-  --font-size-biggest: 2rem;
-  --font-size-h2: 1.25rem;
-  --font-size-h3: 1.1rem;
-  
-  /*===== Font weight =====*/
-  --font-weight-medium: 500;
-  --font-weight-semi-bold: 600;
-  --font-weight-bold: 700; 
+    /* Size */
+    --font-size-small: .810rem;
+    --font-size-normal: .975rem;
+    --font-size-big: 1.3rem;
+    --font-size-bigger: 1.5rem;
+    --font-size-biggest: 2rem;
+    --font-size-h2: 1.25rem;
+    --font-size-h3: 1.1rem;
+    
+    /* Wieght */
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700; 
 
-  /*===== Margenes =====*/
+  /* Margin */
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -37,7 +40,7 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 
-  /*===== z index =====*/
+  /* Z-index */
   --z-fix: 100;
   --z-back: -1; 
 }
@@ -50,7 +53,7 @@
   --font-size-biggest: 3rem;
   }
 }
-/*===== BASE =====*/
+/* Base css value */
 *,::after,::before{
   box-sizing: border-box;
 }
@@ -84,7 +87,7 @@ img{
   height: auto;
 }
 
-/*===== CLASS CSS ===== */
+/* Section */
 .section{
   padding: 4rem 0 2rem;
 }
@@ -107,7 +110,7 @@ img{
 }
 
 
-/*===== LAYOUT =====*/
+/* Layout */
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -126,7 +129,7 @@ img{
   border-bottom: 2px solid var(--color-orange);
 }
 
-/*===== NAV =====*/
+/* Navbar */
 .nav{
   justify-content: space-between;
   display: flex;
@@ -158,12 +161,12 @@ img{
   font-size: 1.5rem;
   cursor: pointer;
 }
-/*===== SHOW MENU =====*/
-.show{
-  left: 0;
-}
+  /* Show menu */
+  .show{
+    left: 0;
+  }
 
-/*===== HOME =====*/
+/* Home banner */
 .home{
   background-color: var(--color-white);
   overflow: hidden;
@@ -209,7 +212,7 @@ img{
   height: 3rem;
 }
 
-/*===== BUTTONS =====*/
+/* Buttons */
 .button{
   display: inline-block;
   background-color: var(--color-black);
@@ -222,30 +225,32 @@ img{
   background-color: var(--color-orange);
   color: var(--color-black);
 }
-  /*===== FEATURED BUTOON=====*/
-.button-light{
-  display: block;
-}
-.button-light i{
-  font-size: 1.5rem;
-}
-.button-light:hover{
-  color: var(--color-orange);
-  transition: .5s;
-}
-.button-subs{
-  display: inline-block;
-  background-color: var(--color-gray);
-  color: var(--color-orange-soft);
-  padding: .5rem .1rem;
-  font-weight: var(--font-size-small);
-  min-width: 8rem;
-}
-.button-subs:hover{
-  color: var(--color-white);
-}
+  /* Featured button*/
+  .button-light{
+    display: block;
+  }
+  .button-light i{
+    font-size: 1.5rem;
+  }
+  .button-light:hover{
+    color: var(--color-orange);
+    transition: .5s;
+  }
+  .button-subs{
+    display: inline-block;
+    background-color: var(--color-gray);
+    color: var(--color-orange-soft);
+    padding: .5rem .1rem;
+    font-weight: var(--font-size-small);
+    min-width: 8rem;
+  }
+  .button-subs:hover{
+    color: var(--color-white);
+  }
 
-/*===== FEATURED =====*/
+/* CART */
+
+/* Featured */
 .featured__container{
   row-gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -288,7 +293,7 @@ img{
   letter-spacing: .15rem;
   margin: 0 0 var(--mb-1) 0;
 }
-/*===== category =====*/
+/* Category */
 .category__container{
   row-gap: 3rem;
   justify-content: left;
@@ -326,7 +331,7 @@ align-self: flex-start;
   padding: 1rem;
 }
 
-/*===== NEWSLETTER =====*/
+/* Newsletter */
 .newsletter__container{
   text-align: center;
 }
@@ -352,9 +357,9 @@ padding: 2rem 1.5rem;
   min-width: auto;
 }
 
-/*===== BRANDS =====*/
+/* Brands */
 
-/*===== PAGINATIONS =====*/
+/* Pagination */
 .pagination {
   padding: 1rem 0 1rem 0;
   text-align: center;
@@ -383,7 +388,7 @@ padding: 2rem 1.5rem;
   background-color: var(--color-orange-soft);
   color: var(--color-black);
 }
-/*===== FOOTER =====*/
+/* Footer */
 .footer{
   background-color: var(--color-footer);
   padding: 1.5rem;
@@ -430,7 +435,7 @@ padding: 2rem 1.5rem;
 .footer__copyright span{
   color: var(--color-orange-soft)
 }
-/* ===== MEDIA QUERIES=====*/
+/* Media query */
 @media screen and (min-width: 576px){
   .category__container{
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr))
