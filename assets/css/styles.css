@@ -376,9 +376,9 @@ padding: 2rem 1.5rem;
 }
 
 .pagination span:hover {
-  border: 1px solid var(--color-black);
-  background-color: var(--color-white);
-  color: var(--black);
+  border: 2px solid var(--color-black);
+  background-color: var(--color-orange-soft);
+  color: var(--color-black);
 }
 /*===== FOOTER =====*/
 .footer{
@@ -465,6 +465,12 @@ padding: 2rem 1.5rem;
   }
   .nav__toggle{
     display: none;
+  }
+  .nav__link:hover{
+    color: var(--color-orange-soft)
+  }
+  .active__link{
+    color: var(--color-orange)
   }
   .home__container{
     height: 80vh;
