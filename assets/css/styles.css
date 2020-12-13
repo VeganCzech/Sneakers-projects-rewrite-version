@@ -244,6 +244,9 @@ img{
 .button-subs:hover{
   color: var(--color-white);
 }
+/*===== FORM =====*/
+
+
 /*===== FEATURED =====*/
 .featured__container{
   row-gap: 3rem;
@@ -417,6 +420,10 @@ padding: 2rem 1.5rem;
   }
   .section{
     padding: 5rem 0 1.5rem 0;
+  }
+  .section-title{
+    padding: 2rem 0 0 0;
+    text-transform: uppercase;
   }
   .section-title::after{
     width: 76px;
