@@ -1,11 +1,10 @@
-/* Google Font */
+/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
- Variable */
+/*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
 
-  /* Colors */
+  /*===== Colores =====*/
   --color-orange: #ff422d;
   --color-orange-soft: #f1867a;
   --color-white: #ffffff;
@@ -14,8 +13,8 @@
   --color-gray-soft: #dfdfdf;
   --color-footer: #1b262c;
 
-  /* Fonts */
-    /* Type */
+  /* Font */
+    /* Body font */
     --font-body: 'Poppins', sans-serif;
 
     /* Size */
@@ -27,7 +26,7 @@
     --font-size-h2: 1.25rem;
     --font-size-h3: 1.1rem;
     
-    /* Wieght */
+    /* Weight */
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700; 
@@ -53,7 +52,7 @@
   --font-size-biggest: 3rem;
   }
 }
-/* Base css value */
+/* Base value */
 *,::after,::before{
   box-sizing: border-box;
 }
@@ -129,7 +128,7 @@ img{
   border-bottom: 2px solid var(--color-orange);
 }
 
-/* Navbar */
+/* Nav bar */
 .nav{
   justify-content: space-between;
   display: flex;
@@ -160,13 +159,13 @@ img{
 .nav__toggle, .nav__cart{
   font-size: 1.5rem;
   cursor: pointer;
-}
-  /* Show menu */
+  }
+  /* Show menu*/
   .show{
     left: 0;
   }
 
-/* Home banner */
+/* Home banner*/
 .home{
   background-color: var(--color-white);
   overflow: hidden;
