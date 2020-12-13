@@ -459,6 +459,61 @@ input[type=submit]:hover {
   margin: 0 0 var(--mb-1) 0;
 }
 
+/* Product detail */
+.product {
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+.product__container {
+  height: calc(100vh - var(--header-height));
+  padding: 2rem;
+}
+
+.product__banner {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-self: center;
+}
+
+.product__img {
+  width: 25vh;
+  height: auto;
+  top: 2rem;
+  max-width: initial;
+}
+
+.product__new {
+  display: block;
+  margin: var(--mb-1) 0;
+  text-transform: uppercase;
+  font-weight: var(--font-semi-bold);
+  font-size: var(--font-size-big);
+}
+
+.product__new span {
+  color: var(--color-orange);
+}
+
+.product__title {
+  text-transform: uppercase;
+  font-size: var(--font-size-biggest);
+  margin-bottom: var(--mb-1)
+}
+
+.product__title span {
+  color: var(--color-orange);
+}
+
+.product__description {
+  margin-bottom: var(--mb-1)
+}
+
+.product__data {
+  height: 3rem;
+}		
+
 /* Featured */
 
 .featured__container {
@@ -486,7 +541,7 @@ input[type=submit]:hover {
 }
 
 .sneaker__img {
-  width: 250px;
+  width: 350px;
   height: auto;
   margin: var(--mb-3) 0 var(--mb-6) 0;
   transform: rotate(30deg);
