@@ -463,6 +463,6 @@ padding: 2rem 1.5rem;
     column-gap: 10rem;
   }
   .collection__container{
-    grid-template-columns: repeat(2, 420px);
+    grid-template-columns: repeat(2, 500px);
   }
 }
