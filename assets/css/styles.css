@@ -5,11 +5,11 @@
   --header-height: 3rem;
 
   /*===== Colores =====*/
-  --color-orange: #fc6453;
-  --color-orange-soft: #ff887b;
+  --color-orange: #ff422d;
+  --color-orange-soft: #f1867a;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-gray: #555;
+  --color-gray: #555555;
   --color-gray-soft: #f6f6f6;
   --color-footer: #1b262c;
 
@@ -467,10 +467,10 @@ padding: 2rem 1.5rem;
     display: none;
   }
   .nav__link:hover{
-    color: var(--color-orange-soft)
+    color: var(--color-orange-soft);
   }
   .active__link{
-    color: var(--color-orange)
+    color: var(--color-orange);
   }
   .home__container{
     height: 80vh;
