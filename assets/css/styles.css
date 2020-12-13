@@ -255,6 +255,7 @@ img {
 
 .button-light {
   display: block;
+  text-decoration: underline;
 }
 
 .button-light i {
