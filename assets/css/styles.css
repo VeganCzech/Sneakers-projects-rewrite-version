@@ -93,7 +93,7 @@ img {
 /* Section */
 
 .section {
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 3.5rem;
 }
 
 .section-title {
@@ -234,7 +234,9 @@ img {
 .home__data {
   height: 3rem;
 }
-
+.colored_home_text{
+  color: var(--color-orange);
+}
 /* Buttons */
 
 .button {
@@ -495,9 +497,6 @@ input[type=submit]:hover {
   margin-bottom: var(--mb-1)
 }
 
-.home__title span {
-  color: var(--color-orange);
-}
 
 .product-i__description {
   margin-bottom: var(--mb-1);
@@ -736,7 +735,7 @@ input[type=submit]:hover {
     margin: 0;
   }
   .section {
-    padding: 4rem 0 1.5rem 0;
+    padding: 4rem 0 3.5rem 0;
   }
   .section-title {
     padding: 2rem 0 0 0;
