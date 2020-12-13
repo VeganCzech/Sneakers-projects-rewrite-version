@@ -430,7 +430,7 @@ padding: 2rem 1.5rem;
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 576px){
   .category__container{
-    grid-template-columns: 415px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr))
   }
   .category__img{
     width: 270px;
