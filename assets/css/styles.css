@@ -274,6 +274,10 @@ img{
   td {
     padding: 2rem 1rem;
   }
+  .td-right-align{
+    float: right;
+
+  }
   
   td input {
     width: 5rem;
@@ -286,7 +290,9 @@ img{
     font-size: 1.1rem;
     font-weight: bold;
   }
-  
+  td a:hover {
+    color: blue;
+  }
   td img {
     width: 10rem;
     height: 10rem;
